@@ -6,6 +6,7 @@
     <description>Recent content on Kogoon&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
+    <copyright>© {year}</copyright>
     <lastBuildDate>Tue, 07 Jul 2020 17:45:19 +0900</lastBuildDate>
     
 	<atom:link href="http://Kogoon.github.io/index.xml" rel="self" type="application/rss+xml" />
