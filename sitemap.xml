@@ -3,15 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://Kogoon.github.io/</loc>
+    <loc>https://Kogoon.github.io/</loc>
   </url>
   
   <url>
-    <loc>http://Kogoon.github.io/categories/</loc>
+    <loc>https://Kogoon.github.io/authors/</loc>
   </url>
   
   <url>
-    <loc>http://Kogoon.github.io/tags/</loc>
+    <loc>https://Kogoon.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://Kogoon.github.io/tags/</loc>
   </url>
   
 </urlset>
