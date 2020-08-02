@@ -1,146 +1,226 @@
 <!DOCTYPE html>
-<html lang="en-us"><head>
-    
+<style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="ko-KR"><head>
+  <meta charset="utf-8">
+  <title>JunSung Go</title>
 
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <meta name="description" property="og:description" content="The website of JunSung Go, 3nd Year Information Security Student at Joongbu University">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="JunSung Go">
+  <meta name="generator" content="Hugo 0.73.0" />
 
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
 
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
 
-<title>Tags | Kogoon&#39;s blog</title>
+  <link rel="alternate" type="application/rss+xml" href="https://kogoon.github.io/tags/index.xml" title="JunSung Go" />
+<!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content='Kogoon의 개발일지'>
-<meta name="keywords" content='developer, back-end, security, beginner'>
-<meta name="msapplication-TileColor" content="#b91d47">
-<meta name="theme-color" content="#ffffff">
-
-<link rel="canonical" href="https://Kogoon.github.io/tags/" />
-<link rel="apple-touch-icon" sizes="180x180" href='/apple-touch-icon.png'>
-<link rel="icon" type="image/png" sizes="32x32" href='/favicon-32x32.png'>
-<link rel="icon" type="image/png" sizes="16x16" href='/favicon-16x16.png'>
-<link rel="manifest" href='/site.webmanifest'>
-<link rel="mask-icon" href='/safari-pinned-tab.svg' color="#696969">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
-
-<meta property="og:title" content="Tags" />
-<meta property="og:description" content="Kogoon의 개발일지" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://Kogoon.github.io/tags/" />
-<meta property="og:image" content="https://Kogoon.github.io/images/banner.png"/>
-
-
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://Kogoon.github.io/images/banner.png"/>
-
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="Kogoon의 개발일지"/>
-
-<meta itemprop="name" content="">
-<meta itemprop="description" content="">
-    
-    
-    <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="Kogoon&#39;s blog" />
-    
-    
-    
-    
-    <link rel="stylesheet" href='/css/style.css'>
-
-    
-
-</head><body><header id="navigation" class="p-navigation">
-    <div class="p-navigation__row">
-        <div class="p-navigation__banner">
-            <div class="p-navigation__logo">
-                <a class="p-navigation__link u-vertically-center p-link--logo" href="https://Kogoon.github.io/">
-                    Kogoon&#39;s blog
-                </a>
-            </div>
-
-            <a href="#navigation" class="p-navigation__toggle--open" title="Menu" aria-label="Open Menu">
-                <i class="p-icon--menu"></i>
-            </a>
-            <a href="#navigation-closed" class="p-navigation__toggle--close" title="Close Menu" aria-label="Close Menu">
-                <i class="p-icon--close"></i>
-            </a>
-        </div>
-
-        <nav class="p-navigation__nav">
-            <span class="u-off-screen">
-                <a href="#main-content">Jump to main content</a>
-            </span>
-
-            <ul class="p-navigation__items" role="menu">
+</head>
+<body class="tags">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
                 
-                <li class="p-navigation__item" role="menuitem">
-                    <a class="p-navigation__link"
-                        href="https://Kogoon.github.io/authors">Authors</a>
-                </li>
+                <li><a style="font-size: 18px; text-transform: none" href="/"> Home
+                        </a></li>
+
                 
-                <li class="p-navigation__item" role="menuitem">
-                    <a class="p-navigation__link"
-                        href="https://Kogoon.github.io/categories">Categories</a>
-                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/blog">Blog</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/portfolio">Portfolio</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/contact">Contact</a></li>
+                
                 
             </ul>
 
-            
-            <form class="p-search-box" action="https://www.google.com/search" target="_blank">
-    <input type="search" class="p-search-box__input" name="q" placeholder='Search'
-        required="" aria-label="Query">
-    <input type="hidden" name="sitesearch" value="https://Kogoon.github.io/">
-    <button type="reset" class="p-search-box__reset" alt="reset" aria-label="Reset">
-        <i class="p-icon--close"></i>
-    </button>
-    <button type="submit" class="p-search-box__button" alt="search" aria-label="Search">
-        <i class="p-icon--search"></i>
-    </button>
-</form>
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
 
-            
-        </nav>
-    </div>
-</header><div id="main-content">
-
-<div class="p-strip page-banner">
-    <div class="row">
-        <h1 class="u-capitalized">Tags</h1>
-    </div>
-</div>
-
-<div class="p-strip is-shallow">
-    <div class="row">
-        <dl class="term-content">
-            
-        </dl>
-    </div>
-</div>
-
-<div class="p-strip is-wrapper">
-    <div class="row">
-        <footer class="p-article-pagination">
-    
-
-    
-</footer>
-    </div>
-</div>
-
-
-        </div><footer class="p-strip is-shallow page-footer">
-    <div class="row">
-        <div class="col-12  u-align--center">
-            <p>
-                © 2020 Title
-            </p>
         </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li><a style="font-size: 18px" href="https://kogoon.github.io"> Home </a></li>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/blog">Blog</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/portfolio">Portfolio</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/contact">Contact</a></li>
+            
+            
+        </ul>
+
     </div>
+</div>
+
+
+
+
+
+<section class="uk-margin-large-bottom">
+        <h1 class="uk-heading-large uk-text-center">Tags</h1>
+</section>
+
+
+
+<section class="uk-margin-large-bottom">
+    <div class="uk-container">
+        <div class="uk-grid-small uk-child-width-1-4@s uk-text-center" uk-grid uk-height-match="target: > div > div > .card-body">
+            
+
+        </div>
+
+    </div>
+</section>
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:gojs712@gmail.com">gojs712@gmail.com</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+                  <div uk-lightbox>
+                    <a href="https://www.google.co.kr/maps/place/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/@37.5637733,126.8340017,11z/data=!3m1!4b1!4m5!3m4!1s0x357ca2012d5c39cf:0x7e11eca1405bf29b!8m2!3d37.566535!4d126.9779692?hl=ko" data-caption="Seoul, Korea"
+                      data-type="iframe">Seoul, Korea</a>
+      </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+    2020
+    JunSung Go
+
+
+  </div>
 </footer>
 
 
+<!-- JS Plugins -->
 
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
 
 </body>
 </html>

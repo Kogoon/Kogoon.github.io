@@ -20,7 +20,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" property="og:description" content="The website of JunSung Go, 3nd Year Information Security Student at Joongbu University">
+  <meta name="description" property="og:description" content="I&#39;m a second year Computer Science student at Durham">
   <meta name="image" property="og:image" content="/">
   <meta name="author" content="JunSung Go">
   <meta name="generator" content="Hugo 0.73.0" />
@@ -36,14 +36,15 @@
   
   <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
 
-  <!--Favicon-->
+  <link rel="alternate" type="application/rss+xml" href="https://kogoon.github.io/portfolio/index.xml" title="JunSung Go" />
+<!--Favicon-->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
 </head>
-<body class="">
+<body class="portfolio">
     <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
     <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
         <div class="uk-navbar-right">
@@ -81,7 +82,8 @@
                 
                 
                 
-                <li><a style="font-size: 18px; text-transform: none" href="/portfolio">Portfolio</a></li>
+                <li class="uk-active"><a style="font-size: 18px; text-transform:none"
+                        href="/portfolio">Portfolio</a></li>
                 
                 
                 
@@ -138,7 +140,7 @@
             
             
             
-            <li><a style="font-size: 18px" href="/portfolio">Portfolio</a></li>
+            <li class="uk-active"><a style="font-size: 18px" href="/portfolio">Portfolio</a></li>
             
             
             
@@ -156,23 +158,57 @@
     </div>
 </div>
 
+ 
 
-<main class="p-strip is-deep page-banner">
-    <div class="row">
-        <h1>Bad day, huh?</h1>
-        <p>
-            Enjoy Gangnam Style and then start from the
-            <a href="https://kogoon.github.io/">homepage</a>.
-        </p>
+<section class="uk-margin-large-bottom">
+        <h1 class="uk-heading-large uk-text-center">Sam Robbins&#39; Website</h1>
+</section>
+
+
+
+<section>
+  <div class="uk-container uk-margin-xlarge-bottom">
+    <div uk-filter="target: .js-filter">
+      <ul class="uk-subnav uk-subnav-pill uk-subnav-divider">
+        <li uk-filter-control><a href="#">All</a></li>
+        
+      </ul>
+
+      <ul
+        class="js-filter uk-child-width-1-1 uk-child-width-1-4@m uk-text-center"
+        uk-grid
+        uk-height-match="target: > li > div > .fixy"
+      >
+        
+        <li data-tags="web-dev">
+          <div class="uk-card uk-card-default" style="position: relative;">
+            <div class="fixy">
+              <div class="uk-card-media-top">
+                <img
+                  class="contain experience"
+                  src="https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793276/logos/logos_hugo_h2xbne.svg"
+                  alt=""
+                />
+              </div>
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">Hugo Portfolio Website</h3>
+                <p>A portfolio website made with Hugo</p>
+              </div>
+            </div>
+
+            <div class="uk-card-footer">
+              <a href="/portfolio/hugo-portfolio-website/" class="uk-button uk-button-text"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </li>
+        
+      </ul>
     </div>
-</main>
-<div class="p-strip is-shallow">
-    <div class="row">
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9bZkp7q19f0?start=60"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-</div>
+  </div>
+</section>
+
 
     </div>
 <footer class="footer">
