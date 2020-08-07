@@ -6,10 +6,23 @@
     <description>Recent content on Kogoon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 07 Aug 2020 23:00:05 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2020 23:45:45 +0900</lastBuildDate>
     
 	<atom:link href="http://kogoon.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>상반기 &amp; 7월회고</title>
+      <link>http://kogoon.github.io/posts/etc/augremem/</link>
+      <pubDate>Fri, 07 Aug 2020 23:45:45 +0900</pubDate>
+      
+      <guid>http://kogoon.github.io/posts/etc/augremem/</guid>
+      <description>2020년 7월 회고  8월은 이미 시작했지만 8월을 계획하기 전에 돌아보는&amp;hellip;
+ 회고 3학년 1학기 회고. 코로나 바이러스 영향으로 모든 학교가 온라인 수업을 시행했다. 3년만에 복학이라 학교 생활에 기대감이 컸지만,
+학교 생활은 커녕 집에서만 수업을 듣고 공부했다. 공부도 의욕만 넘쳐가지고 심화 전공 수업만 신청해서 들었다.
+오프라인이면 질문도 쉬웠을 것이고, 수업 후 실습을 통해서 바로바로 피드백이 가능하니 조금 더 잘했을지도 모른다. (맞다, 내가 더 열심히 못한거..)
+어찌되었든, 결과는 좋지 못했고 다들 코로나로 인해 좋은 성적을 받았지만 난 오히려 떨어졌다.</description>
+    </item>
     
     <item>
       <title>Test</title>
