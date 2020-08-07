@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>404 Page not found</title>
+    <title>Posts</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -23,7 +23,8 @@
 <link rel="stylesheet" href="/assets/css/style.css" />
 
     
-    <link rel="stylesheet" href="/assets/css/404.css">
+    <link rel="stylesheet" href="/assets/css/list.css">
+    <link rel="stylesheet" href="/assets/css/navigators/sidebar.css">
 
 
     
@@ -52,6 +53,10 @@ if (!doNotTrack) {
     
     
     
+      
+    
+    
+      
     
       <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
       <span class="navbar-toggler-icon"></span>
@@ -75,19 +80,101 @@ if (!doNotTrack) {
 
 
       
-       
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <input type="text" value="" placeholder="Search" data-search="" id="search-box" />
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/test/">Test</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/study/">Study</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/project/">Projects</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/etc/">끄적끄적</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
       
       
-<div class="container">
-    <div class="notFound">
-        <img src="/assets/images/404.png" alt="">
-        <div class="message">
-            <h1>404</h1>
-            <h4>The page you are looking for is not there yet.</h4>
-        </div>
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      
+      
+        <div class="post-card">
+  <a href="/posts/test/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/posts/test/hero.png'/>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Test</h5>
+        <p class="card-text post-summary">This theme has been designed from a personal point of preference. As a developer, I want to organize my portfolio in a way that will reflect my skills best. So, this theme may or may not meet your needs but I will be happy to have your feedback.
+This post will give you an overview of the features that this theme incorporates.
+Minimalist Design This theme has been designed to be minimalist and beautiful.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">August 7, 2020</span>
+        <a
+        href="/posts/test/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
     </div>
+  </a>
 </div>
+
+      
+    </div>
+    <div class="paginator">
+      
+
+
+    </div>
+  </div>
+</section>
 
 
       
@@ -184,6 +271,8 @@ if (!doNotTrack) {
 
 
     
-     
+    
+    <script src="/assets/js/list.js"></script>
+
   </body>
 </html>
