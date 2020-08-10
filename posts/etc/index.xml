@@ -6,10 +6,27 @@
     <description>Recent content in ETC on Kogoon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 07 Aug 2020 23:45:45 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 06:30:45 +0900</lastBuildDate>
     
 	<atom:link href="http://kogoon.github.io/posts/etc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ICT 인턴십 후기 (3 지원 / 1 합격)</title>
+      <link>http://kogoon.github.io/posts/etc/ictintern/</link>
+      <pubDate>Mon, 10 Aug 2020 06:30:45 +0900</pubDate>
+      
+      <guid>http://kogoon.github.io/posts/etc/ictintern/</guid>
+      <description>지난 번에 썼었지만,
+ICT 인턴십을 지원해서 총 3곳의 서류를 넣었고 코딩테스트 후 2곳을 붙어서 2곳의 면접을 보았다.
+원래 그때그때 바로바로 썼었어야 했지만..
+지금이라도 늦기 전에 더 까먹기전에.. 써본다.
+Done is better than Perfect
+ ICT 인턴십 코딩테스트 후기 
+이번 ICT 인턴십 사업에서 코딩테스트를 보는 회사는 총 75개의 회사였다.
+코딩테스트는 서류전형이 진행되기 전에 이루어졌다. (물론 코딩테스트를 보기 전부터 회사는 서류확인이 가능했다.)
+내가 지원한 3개의 회사 중에서 2개의 회사에서 코딩테스트를 신청했다.</description>
+    </item>
     
     <item>
       <title>상반기 &amp; 7월회고</title>
@@ -18,10 +35,7 @@
       
       <guid>http://kogoon.github.io/posts/etc/augremem/</guid>
       <description>2020년 7월 회고  8월은 이미 시작했지만 8월을 계획하기 전에 돌아보는&amp;hellip;
- 회고 3학년 1학기 회고. 코로나 바이러스 영향으로 모든 학교가 온라인 수업을 시행했다. 3년만에 복학이라 학교 생활에 기대감이 컸지만,
-학교 생활은 커녕 집에서만 수업을 듣고 공부했다. 공부도 의욕만 넘쳐가지고 심화 전공 수업만 신청해서 들었다.
-오프라인이면 질문도 쉬웠을 것이고, 수업 후 실습을 통해서 바로바로 피드백이 가능하니 조금 더 잘했을지도 모른다. (맞다, 내가 더 열심히 못한거..)
-어찌되었든, 결과는 좋지 못했고 다들 코로나로 인해 좋은 성적을 받았지만 난 오히려 떨어졌다.</description>
+ 회고 3학년 1학기 회고. 코로나 바이러스 영향으로 모든 학교가 온라인 수업을 시행했다. 3년만에 복학이라 학교 생활에 기대감이 컸지만, 학교 생활은 커녕 집에서만 수업을 듣고 공부했다. 공부도 의욕만 넘쳐가지고 심화 전공 수업만 신청해서 들었다. 오프라인이면 질문도 쉬웠을 것이고, 수업 후 실습을 통해서 바로바로 피드백이 가능하니 조금 더 잘했을지도 모른다. (맞다, 내가 더 열심히 못한거..) 어찌되었든, 결과는 좋지 못했고 다들 코로나로 인해 좋은 성적을 받았지만 난 오히려 떨어졌다.</description>
     </item>
     
   </channel>
